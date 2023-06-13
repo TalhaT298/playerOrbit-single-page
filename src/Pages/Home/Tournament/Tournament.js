@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import { AiOutlineRight } from "react-icons/ai";
+import { AiOutlineRight } from "react-icons/ai";
 
 const Tournament = () => {
   return (
@@ -52,10 +52,12 @@ const Tournament = () => {
             </div>
           </div>
         </div>
+        <div className="pl-12 pt-48"><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded-full"><AiOutlineRight size="1.5rem" color="" /></button></div>
+        </div>
         </div>
         
 
-    </div>
+   
   );
 };
 
