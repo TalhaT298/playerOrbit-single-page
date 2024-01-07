@@ -3,11 +3,11 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   
-  theme: { // changed to an object
+  theme: { 
     extend: {},
   },
   plugins: [require("daisyui")],
-  daisyui: { // added daisyui property
-    themes: ["black"], // added themes property
+  daisyui: { 
+    themes: ["black"],
   },
 }

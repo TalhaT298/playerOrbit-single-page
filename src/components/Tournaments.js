@@ -7,10 +7,12 @@ import arrow from './imgs/arrow_back_ios_new.png'
 const Tournaments = () => {
     return (
         <div>
-             <div className='max-w-[1250px] mx-auto py-12 p-3'>
+             <div className='max-w-[1400px] mx-auto py-12 p-3'>
             <div className="flex flex-wrap justify-between" data-aos="fade-down">
                 <div className="text-white ">
-                <h2 className='text-5xl font-bold py-6 pl-10 md:pl-10'>Tournament</h2>
+                <div className='md:pr-20 justify-start'>
+                <h2 className='text-5xl font-bold py-6 pr-10  md:pr-60'>Tournament</h2>
+                </div>
                 <p className='pl-10 md:pl-0'>Come test your skills and win exciting prizes in Playerorbit's gaming </p>
                 <p className='pl-10 md:pl-0'>tournament!</p>
                 </div>
@@ -21,9 +23,9 @@ const Tournaments = () => {
             </div>
 
             <div className=" mt-16 flex flex-wrap rounded" data-aos="fade-up">
-             <div className="flex rounded flex-wrap max-w-[980px] bg-[#1E1F22]">
+             <div className="flex rounded flex-wrap max-w-[1400px] bg-[#1E1F22]">
                 <img className='w-[290px] mx-auto h-[370px]' src={pubg} alt="" />
-                <div className="text-white max-w-[680px] p-8">
+                <div className="text-white max-w-[800px] p-8">
                     <h3 className='text-2xl font-semibold'>BGMI Grand Tournament</h3>
                     <p className='text-gray-400'>28 Jan, 2023 , 17:00 IST</p>
                     <p className='py-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis odio et quam semper blandit. Praesent in venenatis dui, et varius justo. Donec sit amet ex congue, Lorem ipsum dolo</p>

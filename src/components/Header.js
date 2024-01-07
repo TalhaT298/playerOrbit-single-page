@@ -17,7 +17,7 @@ const Header = () => {
 
   return (
     <div className="">
-      <div className="max-w-[1250px] mx-auto py-12">
+      <div className="max-w-[1400px] mx-auto py-12">
         <div className="hearder-main flex flex-wrap justify-between p-3">
           <div className="header-text max-w-[500px] text-white md:pt-12 pl-14 md:pl-0">
             <h1
@@ -66,7 +66,7 @@ const Header = () => {
               </button>
             </div>
           </div>
-          <div className="header-img p-3 rounded">
+          <div className="header-img p-3 rounded md:pr-24 ">
             <img
               className="w-[420px] mx-auto rounded"
               src={chess}

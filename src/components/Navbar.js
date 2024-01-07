@@ -5,9 +5,9 @@ import sport1 from './imgs/sports_esports.svg'
 const Navbar = () => {
 
     return (
-        <div className=' w-full max-w-[1250px] mx-auto py-4'>
+        <div className=' w-full max-w-[1400px] mx-auto py-4'>
           <div className="navbar text-white">
-            <a className="normal-case text-xl md:mx-0 mx-10">
+            <a className="normal-case text-5xl md:mx-0 mx-10">
                 <img src={logo1} className='' alt="" />
             </a> 
           <div className="navbar-start">          
