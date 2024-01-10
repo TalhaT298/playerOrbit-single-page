@@ -21,7 +21,7 @@ const Navbar = () => {
                 <li className='py-2'><a className='text-[19px]'>Become a Coach</a></li>
                 <li className='py-2'><a className='text-[19px]'>Games</a></li>
                  <li className="">
-            <a className='flex flex-wrap py-4 text-white text-[19px]'>Join
+            <a className='flex flex-wrap py-4 text-white text-[19px]'>Join Here
             <span className='bg-[#4CBEFE] h-7 w-7 rounded-full mx-2'>
                 <img className='h-3 w-4 mx-auto mt-2' src={sport1} alt="" /> 
             </span>      
